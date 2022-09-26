@@ -12,6 +12,7 @@ function App() {
       <h1 className="teste">Hello, world!</h1>
       <FirstComponent />
       <TemplateExpressions />
+      <FirstComponent />
     </div>  
   );
 }
