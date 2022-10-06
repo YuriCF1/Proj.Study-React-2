@@ -25,7 +25,7 @@ const Events = () => {
         </button>
       </div>
       <div>
-        {/* Essa logina complexa não deve existir no html */}
+        {/* Essa logica complexa não deve existir no html */}
         <button onClick={() => {
             if (true) {
                 console.log("This shouldn't supost to be here");
