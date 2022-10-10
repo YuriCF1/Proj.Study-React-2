@@ -1,12 +1,12 @@
 //Components
-import TemplateExpressions from './components/TemplateExpressions';
-import FirstComponent from './components/FirstComponent' //Arquivos js não precisao da extensão '.js'
-import Events from './components/Events';
+import TemplateExpressions from "./components/TemplateExpressions";
+import FirstComponent from "./components/FirstComponent"; //Arquivos js não precisao da extensão '.js'
+import Events from "./components/Events";
 
 //Styles
-import './App.css';
-import MyComponent from './components/MyComponent';
-import Challenge from './components/Challenge';
+import "./App.css";
+import MyComponent from "./components/MyComponent";
+import Challenge from "./components/Challenge";
 
 function App() {
   //Se eu usasr 'class' do css, ele só vai dar um erro no console, já que ele ainda consegue rodar assim
@@ -18,7 +18,7 @@ function App() {
       <MyComponent />
       <Events />
       <Challenge />
-    </div>  
+    </div>
   );
 }
 
